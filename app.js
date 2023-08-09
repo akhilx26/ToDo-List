@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 // Connecting to Database
-mongoose.connect("mongodb://localhost/toDoListDB");
+mongoose.connect("mongodb+srv://admin-akhil:abtbtdbt@cluster0.1ucpojt.mongodb.net/toDoListDB");
 
 // Defining schema
 const itemsSchema = {
